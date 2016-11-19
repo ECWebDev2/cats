@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--  Bootstrap added -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <title>Cats</title>
+<!--    <link href="home.html" rel="stylesheet">
+    <link href="restaurants.html" rel="stylesheet">
+    <link href="kidszone.html" rel="stylesheet">
+    <link href="adultgetaway.html" rel="stylesheet">
+    <link href="parks.html" rel="stylesheet">
+    <link href="concertvenues.html" rel="stylesheet">   getting back to this later  -->
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body id="cats">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- navbar-header is used to add links onto the naviagtion bar. -->
+                <button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                <!-- St. Louis brand name.   # indicates no site implemented at this time --><a alt="St. Louis" class="navbar-brand" href="#" id="fur">Cats</a> </div>
+            <!-- navbar collapse creates a bar in the  upper right corner of the screen when it is too small to view on devices. This way it will act as a dropdown. -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <!-- inside the header you must have nav navbar-nav to create your buttons/links onto the navigation bar. make sure you make your list active again or it won't do anything. -->
+                    <li class="active"> <a href="#">Home</a> </li>
+                    <!-- dropdown menu bar attempt on food; must make class="active" to start the dropdown menu.-->
+                    <!-- dropdown requires jquery and bootstrap. min for it to work. without the files you will not be able to click on it for any action. -->
+                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Adoption Sites<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <!-- Bailey's Range, found in links notepad -->
+                            <li> <a href="http://member.hsmo.org/site/PageNavigator/AdoptAPet.html" target="_blank">Humane Society</a> </li>
+                            <!-- Stacked STL, found in links notepad -->
+                            <li> <a href="http://www.petsmart.com/store-locator/store/?storeID=1685&utm_source=google&utm_medium=organic&utm_campaign=google-my-business" target="_blank">Petsmart</a> </li>
+                            <!-- The Royale, found in links notepad -->
+                            <li> <a href="http://www.notimetospareanimalrescue.com/" target="_blank">Animal Rescue</a> </li>
+                            <!-- More Burger Places -->
+                            <li> <a href="http://www.adoptapet.com/adoption_rescue/77043.html" target="_blank">D-PAWS</a> </li>
+                            <!-- About -->
+                            <li> <a href="http://www.purina.com.au/cats/care/information/facts" target="_blank">About</a> </li>
+                        </ul>
+                    </li>
+                    <!-- dropdown menu bar attempt on food; must make class="active" to start the dropdown menu.-->
+                    <!-- dropdown requires jquery and bootstrap. min for it to work. without the files you will not be able to click on it for any action. -->
+                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cat Hospitals<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <!-- Tucker's Place Soulard -->
+                            <li> <a href="http://www.animaltalkmedicalcenter.com/" target="_blank">Animal Talk Medical Center</a> </li>
+                            <!-- The Best Steak House -->
+                            <li> <a href="http://troyandwentzvillevet.com/" target="_blank">Veterinary Clinics</a> </li>
+                            <!-- Kenrick's Meat Market -->
+                            <li> <a href="http://www.stlouisanimalemergencyclinic.org/" target="_blank">Animal Emergency Clinic</a> </li>
+                            <!-- More Steak Places -->
+                            <li> <a href="http://gentledranimalhospital.com/" target="_blank">Gentle Doctor</a> </li>
+                            <!-- About -->
+                            <li> <a href="http://www.purina.com.au/cats/care/information/facts" target="_blank">About</a> </li>
+                        </ul>
+                    </li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li> <a href="#"><span class=
+                        "glyphicon glyphicon-user"></span> Sign Up</a> </li>
+                        <li> <a href="#"><span class=
+                        "glyphicon glyphicon-log-in"></span> Login</a> </li>
+                    </ul>
+                    <!-- We will need to use the navbar right-->
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search"> </div>
+                        <!--button type at this time is a pretty simple form. no active use at this time-->
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    <!--end of form-group with the input type and button. Very little room now for extras on the navigation bar. -->
+                </ul>
+            </div>
+            <!-- end of div taken out for collpase -->
+        </div>
+    </nav>
+<!--  activate at a later time -->
+    <div class="container" id="furious">  <!--Breadcrumb menu to navigate between HTML pages. -->
+       <!-- take some time for breadcrumb navigation
+        <h4>Cat Pages</h4>
+        <ul class="breadcrumb">
+            <li><a href="home.html" target="_blank">Home</a></li>
+            <li class="active"><a href="#">Restaurants</a></li>
+            <li><a href="kidszone.html" target="_blank">Kid's Zone</a></li>
+            <li><a href="adultgetaway.html" target="_blank">Adult Getaway</a></li>
+            <li><a href="parks.html" target="_blank">Parks</a></li>
+            <li><a href="concertvenues.html" target="_blank">Concert Venues</a></li>
+        </ul>
+    </div>  -->
+    <!-- jumbotron text starts right under naviagtion bar!!! -->
+    <div class="container">
+        <div class="page-header" id="white">
+            <h1 class="entertainment">Cats</h1> </div>
+    </div>
+    <!--Cat Gifs-->
+    <!-- start to gifs, want to include 4 different gifs -->
+    <!-- the columns have to add up to 12 on the first value, then after that you can put any values you want within each div. example=col-md-3 col-sm-4 col-xs-6 -->
+    <div class="container" id="cats1">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Ball Cat"</p> <img alt="Ball Cat" src="gifs/ballcat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Bed Cat"</p><img alt="Bed Cat" src="gifs/bedcat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Box Cat"</p> <img alt="Box Cat" src="gifs/boxcat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Candle Cat"</p> <img alt="Candle Cat" src="gifs/candlecat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end of gifs -->
+    <!--Cat images part 1-->
+    <!-- start to images, want to include 4 different images -->
+    <!-- the columns have to add up to 12 on the first value, then after that you can put any values you want within each div. example=col-md-3 col-sm-4 col-xs-6 -->
+    <div class="container" id="cats1">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Bread Cat"</p> <img alt="Bread Cat" src="images/breadcat.jpg" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Eye Cat"</p><img alt="Eye Cat" src="images/eyecat.jpg" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Foot Cat"</p> <img alt="Foot Cat" src="images/footcat.jpg" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Freaky Cat"</p> <img alt="Freaky Cat" src="images/freakycat.jpg" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end of images -->
+    <!--Cat gifs part 2-->
+    <!-- start to gifs, want to include 4 different gifs -->
+    <!-- the columns have to add up to 12 on the first value, then after that you can put any values you want within each div. example=col-md-3 col-sm-4 col-xs-6 -->
+    <div class="container" id="cats3">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Clown Cat"</p> <img alt="Clown Cat" src="gifs/clowncarcat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Dropkick Cat"</p><img alt="Dropkick Cat" src="gifs/dropkickcat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Dunce Cat"</p> <img alt="Dunce Cat" src="gifs/duncecat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"High Five Cat"</p> <img alt="High Five Cat" src="gifs/highfivecat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end of gifs -->
+    <!--Cat's images part 2-->
+    <!-- start to images, want to include 4 different images -->
+    <!-- the columns have to add up to 12 on the first value, then after that you can put any values you want within each div. example=col-md-3 col-sm-4 col-xs-6 -->
+    <div class="container" id="cats4">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Black Scare Cat"</p> <img alt="Black Scare Cat" src="images/blackscarecat.jpg" class="img-rounded" style="width: 275px; height: 300px"> </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Cute Scare Cat"</p><img alt="Cute Scare Cat" src="images/cutescarecat.jpg" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Murder Cat"</p> <img alt="Murder Cat" src="images/murdercat.jpg" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"WTF Cat"</p> <img alt="WTF Cat" src="images/wtfcat.jpg" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end of images -->
+    <!--Cat gifs part 3-->
+    <!-- start to gifs, want to include 4 different gifs-->
+    <!-- the columns have to add up to 12 on the first value, then after that you can put any values you want within each div. example=col-md-3 col-sm-4 col-xs-6 -->
+    <div class="container" id="cats5">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Light Cat"</p> <img alt="Light Cat" src="gifs/lightcat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Play Cat"</p><img alt="Play Cat" src="gifs/playcat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"Scare Cat"</p> <img alt="Scare Cat" src="gifs/scarecat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a class="img-rounded">
+                    <p class="image">"What Cat"</p> <img alt="What Cat" src="gifs/whatcat.gif" class="img-rounded" style="width: 275px; height: 300px"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end of images -->
+    <div style="text-align: center"> <a class="cats6" href="#top">Go to top of page</a> </div>
+</body>
+
+</html>
